@@ -1,6 +1,6 @@
 {
   "name": "paon",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A simple TypeScript interface for Observer Pattern.",
   "keywords": [
     "observer"
@@ -12,7 +12,8 @@
   },
   "scripts": {
     "build": "tsc -d"
-  },  "author": "Yahiko <yahiko.ninja@gmail.com>",
+  },
+  "author": "Yahiko <yahiko.ninja@gmail.com>",
   "maintainers": [
     "Yahiko"
   ],
