@@ -1,0 +1,22 @@
+{
+  "name": "paon",
+  "version": "0.1.0",
+  "description": "A simple TypeScript interface for Observer Pattern.",
+  "keywords": [
+    "observer"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yahiko00/Paon.git"
+  },
+  "author": "Yahiko <yahiko.ninja@gmail.com>",
+  "maintainers": [
+    "Yahiko"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/yahiko00/Paon/raw/master/LICENSE.txt"
+    }
+  ]
+}
