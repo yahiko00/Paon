@@ -5,11 +5,14 @@
   "keywords": [
     "observer"
   ],
+  "main": "dist/paon.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/yahiko00/Paon.git"
   },
-  "author": "Yahiko <yahiko.ninja@gmail.com>",
+  "scripts": {
+    "build": "tsc -d"
+  },  "author": "Yahiko <yahiko.ninja@gmail.com>",
   "maintainers": [
     "Yahiko"
   ],
