@@ -1,7 +1,7 @@
 {
   "name": "paon",
   "version": "0.2.0",
-  "description": "A simple TypeScript interface for Observer Pattern.",
+  "description": "An Observer Pattern Component in TypeScript/JavaScript.",
   "keywords": [
     "observer"
   ],
@@ -11,6 +11,7 @@
     "url": "git://github.com/yahiko00/Paon.git"
   },
   "scripts": {
+    "compile": "tsc -d",
     "build": "tsc -d && uglifyjs dist/paon.js -mc --output dist/paon.min.js"
   },
   "author": "Yahiko <yahiko.ninja@gmail.com>",

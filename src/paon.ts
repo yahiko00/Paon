@@ -2,7 +2,7 @@
 
 /**
  * @author yahiko <yahiko.ninja@gmail.com>
- * @licence {@link https://github.com/yahiko00/paon/blob/master/LICENCE.txt|MIT License}
+ * @licence {@link https://github.com/yahiko00/Paon/blob/master/LICENCE.txt|MIT License}
  * @overview
  * 
  * An Observer Pattern Component in TypeScript/JavaScript.
@@ -85,6 +85,4 @@ namespace Paon {
     } // Observable
 } // Paon
 
-declare module "paon" {
-    export default Paon;
-}
+export default Paon;
