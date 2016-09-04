@@ -6,11 +6,10 @@
         "strictNullChecks": true,
         "module": "umd",
         "target": "es5",
-        "sourceMap": false,
+        "sourceMap": true,
         "outDir": "dist"
     },
-    "exclude": [
-        "dist",
-        "node_modules"
+    "include": [
+        "./src/**/*.ts"
     ]
 }
