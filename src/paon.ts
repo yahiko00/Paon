@@ -1,13 +1,26 @@
 // paon.ts
 
 /**
- * @fileOverview Observer Pattern component
- * @author <a href="mailto:yahiko.ninja@gmail.com">yahiko</a>
+ * @author yahiko <yahiko.ninja@gmail.com>
+ * @licence {@link https://github.com/yahiko00/paon/blob/master/LICENCE.txt|MIT License}
+ * @overview
+ * 
+ * An Observer Pattern Component in TypeScript/JavaScript.
+ * 
  */
 
 namespace Paon {
+    /**
+     * Observers (subscribers) are functions
+     */
     export type Observer = (msg?: any) => void;
 
+    /**
+     * Observable (subject/publisher) component 
+     * 
+     * @export
+     * @class Observable
+     */
     export class Observable {
         observers: { [type: string]: Observer[] };
 
@@ -71,3 +84,7 @@ namespace Paon {
         } // notifyObservers
     } // Observable
 } // Paon
+
+declare module "paon" {
+    export default Paon;
+}
