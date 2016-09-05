@@ -1,6 +1,6 @@
 {
   "name": "paon",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "An Observer Pattern Component in TypeScript/JavaScript.",
   "keywords": [
     "observer",
