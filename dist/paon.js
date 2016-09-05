@@ -83,8 +83,6 @@
             return Observable;
         }());
         Paon.Observable = Observable; // Observable
-    })(Paon || (Paon = {})); // Paon
-    Object.defineProperty(exports, "__esModule", { value: true });
-    exports.default = Paon;
+    })(Paon = exports.Paon || (exports.Paon = {})); // Paon
 });
 //# sourceMappingURL=paon.js.map

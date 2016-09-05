@@ -5,6 +5,7 @@
         "noImplicitAny": true,
         "strictNullChecks": true,
         "module": "umd",
+        "moduleResolution": "node",
         "target": "es5",
         "sourceMap": true,
         "outDir": "dist"

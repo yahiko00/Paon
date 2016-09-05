@@ -9,7 +9,7 @@
  * 
  */
 
-namespace Paon {
+export namespace Paon {
     /**
      * Observers (subscribers) are functions
      */
@@ -84,5 +84,3 @@ namespace Paon {
         } // notifyObservers
     } // Observable
 } // Paon
-
-export default Paon;
