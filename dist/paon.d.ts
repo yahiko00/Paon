@@ -6,7 +6,7 @@
  * An Observer Pattern Component in TypeScript/JavaScript.
  *
  */
-export declare namespace Paon {
+declare namespace Paon {
     /**
      * Observers (subscribers) are functions
      */

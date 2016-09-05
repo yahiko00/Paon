@@ -9,7 +9,7 @@
  * 
  */
 
-export namespace Paon {
+namespace Paon {
     /**
      * Observers (subscribers) are functions
      */
