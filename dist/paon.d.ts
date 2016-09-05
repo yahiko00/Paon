@@ -27,9 +27,9 @@ declare namespace Paon {
          *
          * @param   {string}   type       Type of messages the observer subscribes to
          * @param   {Observer} observer   Observer
-         * @returns {void}
+         * @returns {Observer}            Observer
          */
-        addObserver(type: string, observer: Observer): void;
+        addObserver(type: string, observer: Observer): Observer;
         /**
          * Remove an observer from a type of message
          *

@@ -24,13 +24,14 @@ var Paon;
          *
          * @param   {string}   type       Type of messages the observer subscribes to
          * @param   {Observer} observer   Observer
-         * @returns {void}
+         * @returns {Observer}            Observer
          */
         Observable.prototype.addObserver = function (type, observer) {
             if (!(type in this.observers)) {
                 this.observers[type] = [];
             }
             this.observers[type].push(observer);
+            return observer;
         }; // addObserver
         /**
          * Remove an observer from a type of message
