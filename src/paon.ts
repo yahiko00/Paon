@@ -33,13 +33,14 @@ namespace Paon {
          * 
          * @param   {string}   type       Type of messages the observer subscribes to
          * @param   {Observer} observer   Observer
-         * @returns {void}
+         * @returns {Observer}            Observer
          */
-        addObserver(type: string, observer: Observer): void {
+        addObserver(type: string, observer: Observer): Observer {
             if (!(type in this.observers)) {
                 this.observers[type] = [];
             }
             this.observers[type].push(observer);
+            return observer;
         } // addObserver
 
         /**

@@ -156,7 +156,7 @@ Only the `import` statement differs from previous examples. Otherwise, the code 
 
 Add an observer to a type of message (similar to the DOM function `addEventListener()`):
 
-	Paon.Observable.addObserver(type: string, observer: Observer): void;
+	Paon.Observable.addObserver(type: string, observer: Observer): Observer;
 
 
 Remove an observer from a type of message (similar to the DOM function `removeEventListener()`):
@@ -166,7 +166,7 @@ Remove an observer from a type of message (similar to the DOM function `removeEv
 
 Remove all observers from a type of message:
 
-	Paon.Observable.removeObserversType(type: string): void;  
+	Paon.Observable.removeObserversType(type: string): void;
 
 
 Send a message to observers (similar to the DOM function `dispatchEvent()`):
