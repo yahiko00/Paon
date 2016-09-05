@@ -3,7 +3,8 @@
   "version": "0.2.1",
   "description": "An Observer Pattern Component in TypeScript/JavaScript.",
   "keywords": [
-    "observer"
+    "observer",
+    "component"
   ],
   "main": "dist/paon.js",
   "repository": {
@@ -12,7 +13,7 @@
   },
   "scripts": {
     "compile": "tsc -d",
-    "build": "tsc -d && uglifyjs dist/paon.js -mc --output dist/paon.min.js"
+    "build": "tsc -d && uglifyjs dist/paon.js -mc --output dist/paon.min.js --source-map dist/paon.min.js.map"
   },
   "author": "Yahiko <yahiko.ninja@gmail.com>",
   "maintainers": [
