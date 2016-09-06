@@ -51,12 +51,14 @@ namespace Paon {
          * @returns {void}
          */
         removeObserver(type: string, observer: Observer): void {
-            for (let i = 0; i < this.observers[type].length; i++) {
-                if (observer === this.observers[type][i]) {
-                    this.observers[type].splice(i, 1);
-                    return;
-                }
-            } // for i
+            if (this.observers[type]) {
+                for (let i = 0; i < this.observers[type].length; i++) {
+                    if (observer === this.observers[type][i]) {
+                        this.observers[type].splice(i, 1);
+                        return;
+                    }
+                } // for i
+            }
         } // removeObserver
 
         /**

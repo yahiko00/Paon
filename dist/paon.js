@@ -41,12 +41,14 @@ var Paon;
          * @returns {void}
          */
         Observable.prototype.removeObserver = function (type, observer) {
-            for (var i = 0; i < this.observers[type].length; i++) {
-                if (observer === this.observers[type][i]) {
-                    this.observers[type].splice(i, 1);
-                    return;
-                }
-            } // for i
+            if (this.observers[type]) {
+                for (var i = 0; i < this.observers[type].length; i++) {
+                    if (observer === this.observers[type][i]) {
+                        this.observers[type].splice(i, 1);
+                        return;
+                    }
+                } // for i
+            }
         }; // removeObserver
         /**
          * Remove all observers from a type of message
